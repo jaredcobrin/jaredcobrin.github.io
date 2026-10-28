@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+<defs><marker id="a" markerWidth="6" markerHeight="6" refX="4" refY="3" orient="auto"><path d="M0 0L6 3L0 6z" fill="#1f3a5f"/></marker></defs>
+<rect width="480" height="400" rx="14" fill="#f4f7fb"/>
+<text x="24" y="38" font-size="20" font-weight="700" fill="#1f3a5f">Are explanations grounded?</text>
+<text x="306" y="70" font-size="13" font-weight="700" fill="#5f6672">SAE latents recovered</text>
+<rect x="24" y="80" width="160" height="54" rx="10" fill="#e6f3ec" stroke="#2e8b57" stroke-width="2.5"/>
+<rect x="36" y="93" width="26" height="5" rx="2.5" fill="#d98a0b"/>
+<rect x="36" y="103" width="22" height="5" rx="2.5" fill="#d98a0b"/>
+<rect x="36" y="113" width="24" height="5" rx="2.5" fill="#cfd6df"/>
+<text x="70" y="112" font-size="13" font-weight="700" fill="#1f6b43">Paragraphs 1-2</text>
+<path d="M188 107H204" stroke="#1f3a5f" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M274 107H298" stroke="#1f3a5f" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="306" y="90" width="43" height="34" rx="6" fill="#d98a0b"/>
+<text x="357" y="115" font-size="22" font-weight="800" fill="#1f3a5f">30%</text>
+<rect x="24" y="148" width="160" height="54" rx="10" fill="#e6f3ec" stroke="#2e8b57" stroke-width="2.5"/>
+<rect x="36" y="161" width="26" height="5" rx="2.5" fill="#cfd6df"/>
+<rect x="36" y="171" width="22" height="5" rx="2.5" fill="#cfd6df"/>
+<rect x="36" y="181" width="24" height="5" rx="2.5" fill="#3a6ea5"/>
+<text x="70" y="180" font-size="13" font-weight="700" fill="#1f6b43">Final paragraph</text>
+<path d="M188 175H204" stroke="#1f3a5f" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M274 175H298" stroke="#1f3a5f" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="306" y="158" width="84" height="34" rx="6" fill="#3a6ea5"/>
+<text x="398" y="183" font-size="22" font-weight="800" fill="#1f3a5f">59%</text>
+<rect x="24" y="216" width="160" height="54" rx="10" fill="#e6f3ec" stroke="#2e8b57" stroke-width="2.5"/>
+<rect x="36" y="229" width="26" height="5" rx="2.5" fill="#1f3a5f"/>
+<rect x="36" y="239" width="22" height="5" rx="2.5" fill="#1f3a5f"/>
+<rect x="36" y="249" width="24" height="5" rx="2.5" fill="#1f3a5f"/>
+<text x="70" y="248" font-size="13" font-weight="700" fill="#1f6b43">Full description</text>
+<path d="M188 243H204" stroke="#1f3a5f" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M274 243H298" stroke="#1f3a5f" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="306" y="226" width="100" height="34" rx="6" fill="#1f3a5f"/>
+<text x="414" y="251" font-size="22" font-weight="800" fill="#1f3a5f">70%</text>
+<rect x="208" y="76" width="62" height="194" rx="12" fill="#3a6ea5"/>
+<line x1="225" y1="141" x2="239" y2="138" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="141" x2="239" y2="146" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="141" x2="239" y2="154" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="141" x2="239" y2="162" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="150" x2="239" y2="138" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="150" x2="239" y2="146" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="150" x2="239" y2="154" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="150" x2="239" y2="162" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="159" x2="239" y2="138" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="159" x2="239" y2="146" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="159" x2="239" y2="154" stroke="#fff" stroke-opacity=".45"/>
+<line x1="225" y1="159" x2="239" y2="162" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="138" x2="253" y2="141" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="138" x2="253" y2="150" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="138" x2="253" y2="159" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="146" x2="253" y2="141" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="146" x2="253" y2="150" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="146" x2="253" y2="159" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="154" x2="253" y2="141" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="154" x2="253" y2="150" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="154" x2="253" y2="159" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="162" x2="253" y2="141" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="162" x2="253" y2="150" stroke="#fff" stroke-opacity=".45"/>
+<line x1="239" y1="162" x2="253" y2="159" stroke="#fff" stroke-opacity=".45"/>
+<circle cx="225" cy="141" r="3.2" fill="#fff"/>
+<circle cx="225" cy="150" r="3.2" fill="#fff"/>
+<circle cx="225" cy="159" r="3.2" fill="#fff"/>
+<circle cx="239" cy="138" r="3.2" fill="#fff"/>
+<circle cx="239" cy="146" r="3.2" fill="#fff"/>
+<circle cx="239" cy="154" r="3.2" fill="#fff"/>
+<circle cx="239" cy="162" r="3.2" fill="#fff"/>
+<circle cx="253" cy="141" r="3.2" fill="#fff"/>
+<circle cx="253" cy="150" r="3.2" fill="#fff"/>
+<circle cx="253" cy="159" r="3.2" fill="#fff"/>
+<text x="239" y="232" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">Rebuild</text><text x="239" y="248" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">activation</text>
+<rect x="24" y="296" width="432" height="82" rx="12" fill="#fff" stroke="#c9d6e6" stroke-width="2"/>
+<text x="240" y="324" font-size="15" font-weight="700" fill="#333" text-anchor="middle">Better reconstruction does not mean more grounded</text>
+<text x="240" y="360" font-size="24" font-weight="800" fill="#b4412f" text-anchor="middle">r = -0.01</text>
+</svg>

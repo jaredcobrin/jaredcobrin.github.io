@@ -125,8 +125,7 @@
 const SOCIAL = {
   CV: "Jared_Cobrin_CV.pdf",
   GitHub: "https://github.com/jaredcobrin",
-  LinkedIn: "https://www.linkedin.com/in/jared-cobrin-ab1291302",
-  X: "https://x.com/JaredC96536"
+  LinkedIn: "https://www.linkedin.com/in/jared-cobrin-ab1291302"
 };
 document.getElementById("social").innerHTML = Object.entries(SOCIAL)
   .filter(([, u]) => u).map(([n, u]) => `<a href="${u}" rel="me">${n}</a>`).join("");

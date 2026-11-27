@@ -25,7 +25,11 @@
   <section id="intro">
     <h2>About</h2>
     <p class="lead">Hi, my name is Jared Cobrin and I&rsquo;m an undergraduate student doing research in LLM interpretability.</p>
-    <p class="lead" style="margin-top:14px">Currently: Working on methods to improve and properly test Natural Language Autoencoders. Paper coming ~Dec 2026&ndash;Jan 2027.</p>
+  </section>
+
+  <section id="currently">
+    <h2>Currently</h2>
+    <p class="lead">Working on methods to improve and properly test Natural Language Autoencoders. Paper coming ~Dec 2026&ndash;Jan 2027.</p>
   </section>
 
   <section id="research">
@@ -36,7 +40,7 @@
       <div class="body">
         <h3><a href="https://github.com/jaredcobrin/nla-sae-grounding/blob/main/NLA_SAE_Evaluation_Write_Up.pdf">Are NLA explanations grounded in the activation? A sparse autoencoder check</a></h3>
         <div class="meta">Sep 2026</div>
-        <p class="abs">Natural Language Autoencoders (Fraser-Taliente et al., 2026) take in an activation, produce an explanation for it through the AV (activation verbalizer), and then rebuild that activation using the AR (activation reconstructor). Reconstruction, however, is not a good measure of how grounded the text is to the activation. To test groundedness, I split 200 explanations into three variants (the first two paragraphs, the final paragraph, and the full explanation) and ran two tests using an SAE: how many of the original activation’s SAE latents each variant’s reconstruction recovers, and how many of those latents’ labeled features an LLM judge finds stated in the text. The final paragraph recovered 59% of the latents against 70% for the full explanation, while the first two paragraphs recovered only 30% despite being 44% of the text. Across individual explanations, FVE does not predict groundedness (r = -0.01, n = 188), so it cannot be used to tell how grounded any one explanation is.</p>
+        <p class="abs">I tested whether an NLA&rsquo;s reconstruction quality (FVE) tells you how grounded its explanation is in the activation, using an SAE as an independent check on 200 explanations. The final paragraph alone recovered 59% of the activation&rsquo;s SAE latents and the full explanation 70%, while the first two paragraphs recovered only 30% despite being 44% of the text. Across 188 explanations, FVE did not predict groundedness (r = -0.01).</p>
         <div class="go"><a href="https://github.com/jaredcobrin/nla-sae-grounding/blob/main/NLA_SAE_Evaluation_Write_Up.pdf">Write-up</a><a href="https://github.com/jaredcobrin/nla-sae-grounding">Code</a></div>
       </div>
     </article>
@@ -45,7 +49,7 @@
       <div class="body">
         <h3><a href="https://github.com/jaredcobrin/causal-nla-collusion/blob/main/paper/paper_draft.pdf">Causal NLAs: grounding activation verbalizers in probe directions for collusion monitoring</a></h3>
         <div class="meta">Oct 2026</div>
-        <p class="abs">An activation verbalizer warm-started on verified probe directions instead of another model&rsquo;s summaries, then trained with RL whose reward never labels the target concept (Qwen2.5-7B). After RL it named held-out concepts it was never taught in 27% of genuine cases, against about 5% before, and flagged plainly collusive sentences far more than honest ones (14.3 vs 3.0 of 20). It did not detect collusion in realistic agent messages.</p>
+        <p class="abs">An activation verbalizer on Qwen2.5-7B, warm-started from verified probe directions and then trained with RL. It named held-out concepts in 27% of cases (vs about 5% before RL) and separated collusive from honest sentences (14.3 vs 3.0 of 20), but did not detect collusion in realistic agent messages.</p>
         <div class="go"><a href="https://github.com/jaredcobrin/causal-nla-collusion/blob/main/paper/paper_draft.pdf">Paper</a><a href="https://github.com/jaredcobrin/causal-nla-collusion">Code</a></div>
       </div>
     </article>
@@ -55,7 +59,7 @@
       <div class="body">
         <h3><a href="PCA-OT_Write_Up.pdf">Choosing the Number of Principal Components in Optimal-Transport Steering</a></h3>
         <div class="meta">Sep 2026</div>
-        <p class="abs">Nanfack et al. (2026), &ldquo;Efficient Refusal Ablation in LLM through Optimal Transport&rdquo;, found that PCA-OT gets worse at high K on refusal. I tested whether more training data fixes this, and whether the same K trend holds on a second task, sycophancy. Doubling the refusal training set (128 to 260 prompts) did not clearly help, since the three random 128-prompt draws varied about as much as the doubling did. On sycophancy the trend reversed: PCA-OT had no effect at K=1&ndash;10 and only steered at K=20&ndash;50. This seems to come from where the signal sits. For refusal, 99.9% of the difference-of-means direction lies in the first PCA direction, while for sycophancy it is spread over many. So the best K depends on the task, and the direction with the most variance may not simply be the direction which splits the two groups.</p>
+        <p class="abs">Nanfack et al. (2026) found that PCA-OT gets worse at high K on refusal. I tested whether more training data fixes this (not clearly: three random 128-prompt draws varied as much as doubling the set) and whether the trend holds on sycophancy, where it reverses and PCA-OT only steers at K=20&ndash;50. For refusal, 99.9% of the difference-of-means direction lies in the first PCA direction; for sycophancy it is spread over many.</p>
         <div class="go"><a href="PCA-OT_Write_Up.pdf">Write-up (PDF)</a></div>
         </div>
     </article>
@@ -77,12 +81,12 @@
     <h3 class="grp">Education</h3>
     <div class="role">
       <div class="rh"><img class="logo" src="logos/concordia.png" alt="Concordia University logo"><div class="rt"><b>Concordia University</b><span class="org">Undergraduate, Computer Science</span></div><time>Jan 2025 – present</time></div>
-      <p class="cw">Relevant courses: Deep Learning, Machine Learning, Multivariable Calculus I, Applied Linear Algebra</p>
+      <p class="cw">Relevant courses: Deep Learning, Machine Learning</p>
     </div>
 
     <h3 class="grp">Courses completed</h3>
     <ul class="plain">
-      <li><img class="logo" src="logos/arena.png" alt="ARENA logo"><div class="txt"><b>ARENA</b></div><time>2026</time></li>
+      <li><img class="logo" src="logos/arena.png" alt="ARENA logo"><div class="txt"><b>ARENA: Alignment Research Engineer Accelerator</b></div><time>2026</time></li>
       <li><img class="logo photo-r" src="logos/karpathy.jpg" alt="Andrej Karpathy"><div class="txt"><b>Andrej Karpathy: Neural Networks Zero to Hero</b></div><time>2026</time></li>
       <li><img class="logo" src="logos/coursera.svg" alt="Coursera logo"><div class="txt"><b>Coursera: Machine Learning Specialization</b></div><time>2026</time></li>
     </ul>
@@ -110,6 +114,7 @@
 <aside>
   <nav class="toc" id="toc" aria-label="Sections">
     <a href="#intro">About</a>
+    <a href="#currently">Currently</a>
     <a href="#research">Research</a>
     <a class="sub" href="#w-sae">Groundedness via SAEs</a>
     <a class="sub" href="#w-collusion">Probe-grounded verbalizers</a>
